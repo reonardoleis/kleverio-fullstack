@@ -12,7 +12,7 @@
   </li>
 </ul>
 
-<strong>Importante:</strong> se quiser testar rodando o back-end em localhost deve-se obrigatoriamente rodar o front-end com o "npm run start", caso execute a versão já buildada (da pasta build) ou a que é servida na raíz do back-end (a raíz do back-end serve o front-end buildado, fiz isso para poder subir para a cloud), ele irá estar chamando o back-end da cloud.
+<strong>Importante:</strong> se quiser testar rodando o back-end em localhost deve-se obrigatoriamente rodar o front-end com o "npm run start", caso execute a versão já buildada (da pasta build) ou a que é servida na raíz do back-end (a raíz do back-end serve o front-end buildado, fiz isso para poder subir para a cloud), ele irá estar chamando o back-end da cloud, isso se dá pelo fato de ter uma verificação: caso o app esteja em produção (após rodar npm run build) ele utiliza a URL da API que está na cloud, caso contrário utiliza a que está no .env que aponta para o localhost na porta 8000.
 
 <strong>Extra:</strong> fiz o extra de deixar rodando na cloud.
 Ficou no seguinte link: https://kleverio-challenge.herokuapp.com/
