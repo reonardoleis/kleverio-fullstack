@@ -1,0 +1,15 @@
+
+.text-white {
+  color: white !important; 
+}
+
+.primary-color {
+  background-color: #0B0B1E;
+}
+
+.main-container {
+  padding: 15px;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
